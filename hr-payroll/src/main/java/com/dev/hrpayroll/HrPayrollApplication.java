@@ -6,7 +6,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
-//@RibbonClient(name = "hr-worker") - loading balance
+//@RibbonClient(name = "hr-worker") - loading balance pode ser comentado pois o eureka já tem isso nele
 @EnableEurekaClient
 @EnableFeignClients
 @SpringBootApplication
